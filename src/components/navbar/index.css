@@ -1,0 +1,28 @@
+.links{
+   display: flex;
+   justify-content: space-around;
+   height: 40px;
+   align-items: center;
+   border-bottom: 2px solid black;
+}
+.box{
+   border-bottom:3px solid transparent;
+   width: 25%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+   color: aliceblue;
+}
+.box>a{
+   font-size: large;
+   text-decoration: none;
+   color: aliceblue;
+}
+.box:hover{
+   border-bottom: 3px solid rgb(199, 86, 243);
+}
+.box:hover a{
+   color:   rgb(199, 86, 243);
+  
+}
